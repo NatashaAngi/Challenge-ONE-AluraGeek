@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+ }
+
+ body{background-color: rgb(31, 29, 29);}
+
+
+ .nomeLoja{display: flex; gap: 40px;justify-content: center;align-items: center;gap: 50px;}
+
+ .logo{font-family:"Jersey 10", sans-serif;color: white;font-size: 3rem; margin-top: 2rem; margin-right:500px;text-shadow: 3px 3px blue;}
+
+
+
+ .login{font-family:"Jersey 10", sans-serif;color: white;background-color: transparent;font-size: 1.5rem;margin-top: 2rem;border: 1px solid blue; padding:10px;border-radius: 10px;}
+
+ .login:hover{background-color: rgb(75, 75, 149);box-shadow: 2px 2px 2px rgb(136, 136, 210);}
+
+ .login:active{top: 3px;position:relative;box-shadow: inset 2px 2px 2px rgb(18, 18, 54)}
+
+ .adcProd{font-family:"Jersey 10", sans-serif;color: white;background-color: transparent;font-size: 1.5rem;margin-top: 2rem;border: 1px solid blue; padding:10px;border-radius: 10px;}
+
+ .adcProd:hover{background-color: rgb(75, 75, 149);box-shadow: 2px 2px 2px rgb(136, 136, 210);}
+.adcProd:active{top: 3px;position:relative;box-shadow: inset 2px 2px 2px rgb(18, 18, 54)}
+
+ hr{border: 1px solid rgba(0, 0, 255, 0.584); margin-top: 20px;}
+
+
+ .itens-menu {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between; /* Adiciona espaço entre os itens */
+    gap: 50px;
+    align-items: center; /* Centraliza verticalmente */
+    padding: 10px 20px; /* Adiciona algum preenchimento */
+}
+
+.itens {
+    display: flex;
+    gap: 50px;
+    
+    
+}
+
+.itens a{color: white;border: 1px solid rgba(0, 0, 255, 0.667);padding: 5px;border-radius: 5px;}
+
+.itens a:hover{background-color: rgb(75, 75, 149);box-shadow: 2px 2px 2px rgb(136, 136, 210);}
+
+.itens a:active{top: 3px;position:relative;box-shadow: inset 2px 2px 2px rgb(18, 18, 54);}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 200px; /* Defina a largura desejada */
+    margin-right:7px; /* Adicione um espaçamento entre o input e o ícone de pesquisa */
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: white;
+
+    
+}
+
+.search-input::placeholder{color: rgb(139, 139, 225);}
+.search-icon {width: 30px;height: 30px;margin-right: 20px;border: 1px solid blue;border-radius:3px;padding: 4px;}
+
+.search-icon:hover{background-color: rgb(75, 75, 149);box-shadow: 2px 2px 2px rgb(136, 136, 210);}
+.search-icon:active{top: 3px;position:relative;box-shadow: inset 2px 2px 2px rgb(18, 18, 54)}
+
+
+.produtos{display: flex;justify-content: space-between;flex-wrap: wrap;}
+
+.produto{width: 280px;display: flex;flex-direction: column;justify-content: space-between;height: 280px; padding:20px;margin-bottom: 95px;box-shadow: 2px 2px 8px black;}
+
+.produto-titulo{margin-top: 10px;color: white;font-family: "Lugrasimo", cursive;font-size:17px ;}
+.produto-preco{color: white;}
+
+
+.tags{color:white;margin-top: 10px;  display: flex;flex-wrap: wrap;justify-content: start;;}
+
+.tag{background: rgba(7, 7, 7, 0.25);border-radius: 4px;margin-right: 1rem;box-shadow: -1px 1px 2px rgb(8, 8, 9);padding: 3px 3px;font-size: 14px;}
+
+footer{background-color: rgba(0, 0, 0, 0.516);height: 45px;}
+footer p{font-family:"Jersey 10", sans-serif; color:white; font-size: 20px;text-align: center;margin-top: 15px;}
+
+footer a{color: deeppink;}
+
+.sociais{display: flex;justify-content: center; gap: 10px;margin-top: 10px;}
+.insta{width: 20px;margin-top: 15px}
+.github{width: 30px;margin-top: 10px}
