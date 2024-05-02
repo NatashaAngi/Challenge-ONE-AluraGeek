@@ -57,7 +57,17 @@
     color: aliceblue;
 }
 
-.login button {
+
+.btn-entrar{width: 30%;
+    padding: 10px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: -2px 2px 3px #080808;}
+/* .login button {
     width: 30%;
     padding: 10px;
     color: #fff;
@@ -67,10 +77,21 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     box-shadow: -2px 2px 3px #080808;
-}
+} */
 
-.login button:hover {
+.btn-entrar{   display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;}
+.btn-entrar button{background-color: transparent;}
+/* .login button a{color: white;font-weight: bolder;} */
+
+
+.btn-entrar:hover{background-color: #0056b3;box-shadow: 2px 2px 3px rgb(118, 118, 235);}
+/* .login button:hover {
     background-color: #0056b3;box-shadow: 2px 2px 3px rgb(118, 118, 235);
-}
+} */
 
-.login button:active{top: 3px;position:relative;box-shadow: inset 3px 3px 2px #080808;}
+.btn-entrar:active{top: 3px;position:relative;box-shadow: inset 3px 3px 2px #080808;}
+/* .login button:active{top: 3px;position:relative;box-shadow: inset 3px 3px 2px #080808;} */

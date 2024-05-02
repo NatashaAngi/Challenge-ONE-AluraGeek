@@ -9,6 +9,12 @@
     <title>Koala Store</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/index.js" defer></script>
+    <script src="./js/API.js" type="module" defer></script>
+    <script src="./js/mostrarItens.js" type="module" defer></script>
+    <script src="./js/excluir.js" type="module" defer></script>
+    <script src="./js/buscaItens.js" type="module" defer></script>
 </head>
 <body>
     <nav class="inicio">
@@ -25,23 +31,27 @@
         <div class="itens-menu">
         
         <div class="links-menu"></div>
-        <ul class="itens">
-            <li class="camiseta"><a href="#">Camisetas</a></li>
-            <li class="figure"><a href="#">Action Figure</a></li>
-            <li class="manga"><a href="#">Mangás</a></li>
+        <ul class="itens" >
+            <li ><button class="btn btn-camisetas" value="camisetas" id="filtrasCamisetas" data-categoria="camisetas">Camisetas</button></li>
+
+            <li><button class="btn btn-figure" value="action figure" id="filtrasFigure" data-categoria="action figure">Action Figures</button></li>
+
+            <li><button class="btn btn-mangas" value="mangás" id="filtrasMangas" data-categoria="mangás">Mangás</button></li>
+
+            <li><button class="btn btn-todos" value="todos" id="filtrasTodos">Todos</button></li>
         </ul>
         
             <div class="search">
-                <input class="search-input" data-search type="search" placeholder="Buscar..">
-                <img class="search-icon" data-btn-search src="assets/search.svg" alt="Imagem de uma lupa">
+                <input class="search-input" data-pesquisa type="search" placeholder="Buscar..">
+                <button class="pesquisa" data-btn-pesquisa><img class="search-icon" data-btn-search src="assets/search.svg" alt="Imagem de uma lupa"></button>
             </div>
 
         </div>
     
 
         <!-- ITENS -->
-        <section class="produtos" id="produtos">
-             <div class="produto">
+        <section class="produtos" id="produtos" data-produto>
+             <!-- <div class="produto" data-itens>
               <img class="produto-img" src="assets/gojo.png" />
               <h2 class="produto-titulo">
              Camiseta Satoru Gojo
@@ -143,7 +153,7 @@
                 <div class="tags">
                   <span class="tag">Camisetas</span>
                 </div>
-              </div>
+              </div> -->
         </section>
 
         <footer>  <div class="sociais">

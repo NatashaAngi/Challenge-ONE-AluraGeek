@@ -10,7 +10,7 @@
   list-style: none;
  }
 
- body{background-color: rgb(31, 29, 29);}
+ body{background-color: rgb(31, 29, 29);overflow-x: hidden;}
 
 
  .nomeLoja{display: flex; gap: 40px;justify-content: center;align-items: center;gap: 50px;}
@@ -37,7 +37,7 @@
     margin-top: 25px;
     display: flex;
     justify-content: space-between; /* Adiciona espaço entre os itens */
-    gap: 50px;
+    gap:50px;
     align-items: center; /* Centraliza verticalmente */
     padding: 10px 20px; /* Adiciona algum preenchimento */
 }
@@ -49,11 +49,12 @@
     
 }
 
-.itens a{color: white;border: 1px solid rgba(0, 0, 255, 0.667);padding: 5px;border-radius: 5px;}
+.btn{background-color: transparent; color: aliceblue;font-weight: bold;border: 1px solid #0056b3;padding: 4px;border-radius: 10px;box-shadow: 4px 4px 2px black;}
 
-.itens a:hover{background-color: rgb(75, 75, 149);box-shadow: 2px 2px 2px rgb(136, 136, 210);}
+.btn:hover{background-color: #0056b3;}
 
-.itens a:active{top: 3px;position:relative;box-shadow: inset 2px 2px 2px rgb(18, 18, 54);}
+.btn:active{top: 4px;position:relative;box-shadow:inset 2px 2px 2px rgb(8, 8, 19);}
+
 
 .search {
     display: flex;
@@ -72,6 +73,7 @@
     
 }
 
+.pesquisa{width: 30px;height: 30px;background-color: transparent;}
 .search-input::placeholder{color: rgb(139, 139, 225);}
 .search-icon {width: 30px;height: 30px;margin-right: 20px;border: 1px solid blue;border-radius:3px;padding: 4px;}
 
@@ -81,10 +83,11 @@
 
 .produtos{display: flex;justify-content: space-between;flex-wrap: wrap;}
 
-.produto{width: 280px;display: flex;flex-direction: column;justify-content: space-between;height: 280px; padding:20px;margin-bottom: 95px;box-shadow: 2px 2px 8px black;}
+.produto{width: 280px;display: flex;flex-direction: column;justify-content: space-between;height: 280px; padding:15px;margin-bottom: 115px;}
+
 
 .produto-titulo{margin-top: 10px;color: white;font-family: "Lugrasimo", cursive;font-size:17px ;}
-.produto-preco{color: white;}
+.produto-preco{color: deeppink;}
 
 
 .tags{color:white;margin-top: 10px;  display: flex;flex-wrap: wrap;justify-content: start;;}
@@ -99,3 +102,5 @@ footer a{color: deeppink;}
 .sociais{display: flex;justify-content: center; gap: 10px;margin-top: 10px;}
 .insta{width: 20px;margin-top: 15px}
 .github{width: 30px;margin-top: 10px}
+
+.btn-del{padding: 3px;color: #3c82cc;width: 50px;margin-top:4px; border-radius: 10px; background-color:rgb(13, 13, 13);border: 1px solid #3c82cc;}

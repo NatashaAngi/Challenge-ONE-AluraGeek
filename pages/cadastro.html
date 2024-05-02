@@ -4,22 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/cadastro.css">
+    <script type="module" src="../js/criarItem.js" defer></script>
+   
     <title>koala Store</title>
 </head>
 <body>
-    <main class="cadastro">
+    <main>
+        <section id="add-product" class="cadastro">
+
+            <h2>Cadastrar Novo Produto</h2>
+
+            <form id="product-form" data-formulario>
+
+                
+                <label for="image">URL da Imagem:</label>
+                <input type="url" id="image" name="image" required data-imagem>
+
+                <label for="name">Produto:</label>
+                <input type="text" id="produto" name="produto" required data-produto>
+
+                <label for="price" class="preco">Preço:</label>
+                <input type="text" id="price" name="price" required data-preco>
+
+                <label for="categoria">Categoria</label>
+                <input type="text" name="categoria" id="categoria" required data-categoria>
+
+                <button type="submit" id="btn">Cadastrar</button>
+               <a href="../index.html" id="btnInicio">Inicio</a>
+            </form> 
+           
+        </section> 
         
-        <label for="produto">Produto</label>
-        <input type="text" name="produto" id="produto" required >
- 
-        <label for="preco">Preço</label>
-        <input type="text" name="preco" id="preco" required >
-
-
-        <label for="imagem">Imagem</label>
-        <input type="image" src="" alt="" required>
- 
-        <button type="submit">Enviar</button>
-     </main>
+    </main>
 </body>
 </html>

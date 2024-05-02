@@ -1,0 +1,76 @@
+
+{
+    "itens":[
+    {
+    "id": 1,
+    "produto": "Camiseta Satoru Gojo",
+    "preco": 49.9,
+    "imagem": "https://images-americanas.b2w.io/produtos/6304807006/imagens/camiseta-jujutsu-kaisen-gojo-itadori-unissex-anime/6304807022_1_xlarge.jpg",
+    "alt": "Satoru Gojo e itadori",
+    "quantidade": 50,
+    "categoria": "camisetas"
+},
+{
+    "id": 2,
+    "produto": "Action Figure D-va - overwatch",
+    "preco": 300.0,
+    "imagem": "https://images.tcdn.com.br/img/img_prod/460977/pop_d_va_with_meka_overwatch_177_funko_29591_1_20201211171953.jpg",
+    "alt": "Funko Pop d-va overwatch",
+    "quantidade": 8,
+    "categoria": "action figure"
+},
+
+{    "id": 3,
+    "produto": "Mangás Jujutsu Kaisen - Volume 0 ao 4",
+    "preco": 129.9,
+    "imagem": "https://images-americanas.b2w.io/produtos/3544557835/imagens/manga-jujutsu-kaisen-batalha-de-feiticeiros-5-volumes/3544557835_1_xlarge.jpg",
+    "alt": "Capas do mangá de jujutsu kaisen do volme 0 ao 4",
+    "quantidade": 10,
+    "categoria": "mangás"
+},
+{
+    "id": 4,
+    "produto": "Mangás Bleach - Volume 1 ao 21",
+    "preco": 199.9,
+    "imagem": "https://m.media-amazon.com/images/I/71HRPElN2bL._SL1500_.jpg",
+    "alt": "box de mangás do bleach",
+    "quantidade": 12,
+    "categoria": "mangás"
+},
+{
+    "id": 5,
+    "produto": "Action Figure Suguro Geto - Jujutsu Kaisen",
+    "preco": 199.9,
+    "imagem": "https://media.entertainmentearth.com/assets/images/fde997d7b2da4c579a8e2a88d8d6f689xl.jpg",
+    "alt": "action figure Suguro Geto",
+    "quantidade": 2,
+    "categoria": "action figure"
+},
+{   
+    "id": 6,
+    "produto": "Camiseta Naruto ",
+    "preco": 49.9,
+    "imagem": "https://img.elo7.com.br/product/zoom/26951E4/camiseta-naruto-feminino.jpg",
+    "alt": "Camiseta Naruto",
+    "quantidade": 78,
+    "categoria": "camisetas"
+},
+{   
+    "id": 7,
+    "produto": "Camiseta Digimon - Agumon",
+    "preco": 49.9,
+    "imagem": "https://pbs.twimg.com/media/DD_k2lPXkAAup2L?format=jpg&name=900x900",
+    "alt": "Camiseta Digimon",
+    "quantidade": 20,
+    "categoria": "camisetas"
+},
+{
+    "id": 8,
+    "produto": "Mangá Naruto - volume 1",
+    "preco": 49.9,
+    "imagem": "https://www.fonomag.com.br/image/cache/data/eftr/Img_ftr_rp_11101-1160x1160.JPG?version=20240426175851",
+    "alt": "Mangá Naruto",
+    "quantidade": 2,
+    "categoria": "mangás"
+}
+]}
